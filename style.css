@@ -39,7 +39,7 @@ body {
 .sneaker img {
   width: 20rem;
   z-index: 2;
-  transition: all 0.75s ease-out;
+  transition: all 0.95s ease-out;
 }
 
 .circle {
@@ -47,8 +47,8 @@ body {
   height: 15rem;
   background: linear-gradient(
     to right,
-    rgba(245, 70, 66, 0.75),
-    rgba(8, 83, 156, 0.75)
+    rgba(199, 14, 11, 0.75),
+    rgba(0, 0, 0, 0.75)
   );
   position: absolute;
   border-radius: 50%;
@@ -92,7 +92,6 @@ button.active {
 
 .purchase {
   margin-top: 5rem;
-  transition: all 0.75s ease-out;
 }
 
 .purchase button {
@@ -104,4 +103,5 @@ button.active {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
+  transition: all 0.75s ease-out;
 }
