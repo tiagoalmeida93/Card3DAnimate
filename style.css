@@ -28,22 +28,32 @@ body {
   padding: 0rem 5rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
-
 .sneaker {
   min-height: 35vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .sneaker img {
   width: 20rem;
   z-index: 2;
   transition: all 0.95s ease-out;
 }
 
-.sneaker .is-flipped {
-  transform: rotateY(180deg);
+.item {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item img {
+  width: 20rem;
+  z-index: 2;
+  transition: all 0.95s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .circle {
@@ -108,4 +118,39 @@ button.active {
   border-radius: 30px;
   font-weight: bolder;
   transition: all 0.75s ease-out;
+}
+
+.item {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.item.is-flipped {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__face {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__face--back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
