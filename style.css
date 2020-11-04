@@ -121,7 +121,7 @@ button.active {
 }
 
 .item {
-  transition: transform 1s;
+  transition: transform 2.5s;
   transform-style: preserve-3d;
   display: flex;
   align-items: center;
