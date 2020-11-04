@@ -4,10 +4,6 @@
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361"/>
-
-  <a href="https://github.com/tiagoalmeida93/Awesome3DAnimation">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tiagoalmeida93/Awesome3DAnimation?style=social"/>
-  </a>
 </p>
 
 <h3 align="center">Card 3D Effects</h3>
@@ -21,3 +17,11 @@
 <h3 align="center">Card 3D Effects</h3>
 
 ![effect3](/screens/ss3.png)
+
+<h3 align="center">Card 3D Effects</h3>
+
+![effect4](/screens/ss4.png)
+
+<h3 align="center">Card 3D Effects</h3>
+
+![effect5](/screens/ss5.png)
