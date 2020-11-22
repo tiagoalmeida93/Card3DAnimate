@@ -6,6 +6,9 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361"/>
 </p>
 
+### Deployed on Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3194f71c-2da4-4146-b1ba-3c14e024ec2f/deploy-status)](https://tiagoalmeida-animationcard.netlify.app/)
+
 <h3 align="center">Card 3D Effects</h3>
 
 ![effect1](/screens/ss1.png)
